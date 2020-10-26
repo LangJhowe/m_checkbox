@@ -1,10 +1,10 @@
 # m_checkbox
 
-A extended CheckBox based on the CheckCBox.
+A extended CheckBox based on the CheckBox.
 
 ## Getting Started
 
-### Add dependency 
+### Add dependency
 
 ```dart
 dependencies:
@@ -40,4 +40,3 @@ MCheckboxStyle
 | hoverColor    | Color | ThemeData.hoverColor            |             |
 | hasBorder     | bool  | true                            |             |
 | fill          | bool  | true                            |             |
-

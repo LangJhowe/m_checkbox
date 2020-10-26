@@ -1,6 +1,6 @@
 name: m_checkbox
-description: A new Flutter package project.
-version: 0.0.1
+description: A extended CheckBox based on the CheckBox.
+version: 0.0.2
 homepage: https://github.com/LangJhowe/m_checkbox
 
 environment:
