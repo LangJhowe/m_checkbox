@@ -1,14 +1,43 @@
 # m_checkbox
 
-A new Flutter package project.
+A extended CheckBox based on the CheckCBox.
 
 ## Getting Started
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+### Add dependency 
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+```dart
+dependencies:
+	m_checkbox: ^lastest_version
+```
+
+### Example
+
+### Constructor
+
+MCheckbox
+
+| Parameter             | type                        | Default | Description        |
+| --------------------- | --------------------------- | ------- | ------------------ |
+| value                 | [bool,null]                 |         | Original attribute |
+| tristate              | [bool,null]                 | false   | Original attribute |
+| onChanged             | void onChanged(bool change) |         | Original attribute |
+| mouseCursor           | MouseCursor                 |         | Original attribute |
+| materialTapTargetSize | MaterialTapTargetSize       |         | Original attribute |
+| visualDensity         | VisualDensity               |         | Original attribute |
+| focusNode             | FocusNode                   |         | Original attribute |
+| autofocus             | bool                        |         | Original attribute |
+| style                 | MCheckboxStyle              |         |                    |
+
+MCheckboxStyle
+
+| Parameter     | type  | Default                         | Description |
+| ------------- | ----- | ------------------------------- | ----------- |
+| activeColor   | Color | ThemeData.toggleableActiveColor |             |
+| inactiveColor | Color | ThemeData.unselectedWidgetColor |             |
+| checkColor    | Color | ThemeData.toggleableActiveColor |             |
+| focusColor    | Color | ThemeData.focusColor            |             |
+| hoverColor    | Color | ThemeData.hoverColor            |             |
+| hasBorder     | bool  | true                            |             |
+| fill          | bool  | true                            |             |
+
